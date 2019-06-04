@@ -1,7 +1,6 @@
 # Travel-Project
-Enter a starting destination and a final destination, and you will get price information for flights and hotels. You can input cities or airports. 
-It can even find your location for you. 
-You can log in or out with your email.
+Enter a starting destination and a final destination, and you will get price information for flights and hotels. You can input cities or airports. It uses a Google Maps API to get the latitudinal and longitudinal coordinates based on a city or place. It also uses Amadeus API to find the nearest airport and hotel costs based on the coordinates and check in/out dates. 
+You can log in or out with your email thanks to Firebase Authentication.
 
 My Responsibilities:
 
