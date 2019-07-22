@@ -293,8 +293,8 @@ function getAccessToken() {
     dataType: "json",
     data: {
       grant_type: "client_credentials",
-      client_id: "2TqxmYIjBHdCQixlwlgBMpnD2uCA4IPi",
-      client_secret: "oabpCuBYyfpcRGsa"
+      client_id: "xAlZSARJmLEiGqBVfiNppYNJ2RRP5Ydz", //"2TqxmYIjBHdCQixlwlgBMpnD2uCA4IPi"
+      client_secret: "JkkZLt11rk8Wqpjf" //"oabpCuBYyfpcRGsa"
     },
     success: function(response) {
       accessToken = response.access_token;
